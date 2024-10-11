@@ -13,6 +13,8 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
     return (
+                 <div className='overflow-hidden'>
+
         <CenteredImageWithBackground>
             <NameCard/>
             <QuoteComponent/>
@@ -86,6 +88,7 @@ export default function AboutPage() {
 
 
         </CenteredImageWithBackground>
+                      </div>
 
         // <div  className="max-w-[900px] mx-auto items-center space-y-4 sm:space-y-0 sm:space-x-10 px-4">
         //     <div className="max-w-[900px] mx-auto items-center space-y-4 sm:space-y-0 sm:space-x-10 px-4">
